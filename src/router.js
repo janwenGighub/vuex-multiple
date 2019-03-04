@@ -19,8 +19,12 @@ export default new Router({
           component: ()=> import ('./views/Home.vue')
         },
         {
-          path: '/about',
-          component: ()=> import ('./views/About.vue')
+          path: '/list',
+          component: ()=> import ('./views/List.vue')
+        },
+        {
+          path: '/select',
+          component: ()=> import ('./views/Select.vue')
         }
       ]
     }
